@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+
+.showcase {
+    /* border: 2px solid green; */
+    width: 98vw;
+    height: 24rem;
+    padding: 2rem;
+    padding-top: 3.3rem;
+}
+
+.showcase-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+/* left showcse  */
+.left-showcase {
+    /* border: 2px solid; */
+    width: 33rem;
+
+}
+
+.left-showcase h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(20, 168, 0);
+    font-size: 4.5rem;
+    line-height: 73px;
+    margin-bottom: 30px;
+
+}
+
+.left-showcase p {
+    font-size: 22px;
+    margin-top: 4px;
+}
+
+.left-showcase button {
+    border: none;
+    border-radius: 27px;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 12px 16px;
+    background-color: rgb(20, 168, 0);
+    color: white;
+
+}
+
+/* right showcase  */
+
+.illusion-image img {
+    height: 20rem;
+    position: relative;
+    bottom: 35px;
+}

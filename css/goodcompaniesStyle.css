@@ -1,0 +1,110 @@
+.good-companies {
+    /* border: 2px solid rgb(54, 181, 79); */
+    position: relative;
+    border-radius: 7px;
+    width: 86.8%;
+    min-height: 32.4rem;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 55px;
+
+}
+
+.good-companies-inner {
+    color: white;
+    display: flex;
+}
+
+/* left */
+.good-companies-left {
+    background: rgb(19, 84, 78);
+    height: 32.4rem;
+    width: 55.2rem;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+.good-companies-inner::after {
+    position: absolute;
+    content: '';
+    background: url(../imges/wheelchair.webp);
+    width: 33.1%;
+    height: 99.9%;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+.good-companies-left-content {
+    margin: 33px;
+    margin-left: 3.6rem;
+    width: 42rem;
+}
+
+.good-companies-left-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+
+.good-companies-left-content h1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    
+}
+
+.good-companies-left-content .g-c-color {
+    color: rgb(145, 230, 179);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 57px;
+    width: 29rem;
+    margin-bottom: 20px;
+}
+
+
+.good-companies-left-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.good-companies-boxes {
+    margin-top: 18px;
+}
+
+.good-companies-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.good-companies-svg img {
+    width: 23px;
+    color: rgb(145, 230, 179);
+
+}
+
+.good-companies-box-h-p {
+    margin-left: 22px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.good-companyes-button{
+    border: none;
+    border-radius: 27px;
+    font-size: 18px;
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+
+}
+
+

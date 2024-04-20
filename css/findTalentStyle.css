@@ -1,0 +1,49 @@
+.find-talent {
+    /* border: 2px solid rgb(54, 181, 79); */
+    width: 86.8%;
+    min-height: 25.4rem;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 19px;
+
+}
+
+.find-talent-inner h1 {
+    font-size: 2.5rem;
+}
+
+.find-talent-boxes {
+    /* border: 2px solid purple; */
+    padding-top: 28px;
+    margin-top: 8px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+    grid-auto-rows: 160px;
+}
+
+.find-talent-box {
+    /* border: 2px solid red; */
+    background-color: #108a00;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+
+.find-talent-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.find-talent-box a div{
+    font-size: 39px;
+    width: 21rem;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 28px;
+}
+
+.find-talent-box a {
+    font-size: 16px;
+    
+}

@@ -1,0 +1,74 @@
+.posture-section{
+    height: 65vh;
+    padding: 37px 100px;
+
+}
+.innerposture{
+    display: flex;
+}
+.innerposture-image{
+
+}
+.innerposture-image img{
+    width: 32rem;
+}
+
+
+
+
+/* posture  right side */
+
+.innerposture-right{
+    margin-left: 57px;
+    padding-top: 0px;
+}
+
+.inneposture-heading h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.innerposture-boxes{}
+.inner-posture-box{
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.innerposture-svg img{
+    width: 23px;
+}
+
+.inner-posture-box-h-p{
+    margin-left: 22px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+/* posture buttons */
+.innerposture-button1{
+    border: none;
+    border-radius: 27px;
+    margin-top: 9px;
+    font-size: 18px;
+    padding: 11px 16px;
+    background-color: rgb(20, 168, 0);
+    color: white;
+}
+.innerposture-button2{
+    border: 2px solid rgb(20, 168, 0);
+    border-radius: 27px;
+    margin-top: 9px;
+    margin-left: 12px;
+    font-size: 18px;
+    padding: 9px 16px;
+    color:rgb(20, 168, 0) ;
+    background-color: white;
+}
+
+.innerposture-button2:hover{
+   
+    color:rgb(20, 168, 0) ;
+    background-color: rgb(242,247,242);
+    
+}

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 49px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Extra-menu{
+/* border: 2px solid red; */
+}
+.Extra-menu ul{
+    display: flex;
+    margin-left: 4px;
+}
+.Extra-menu ul li{
+    list-style: none;
+    padding: 0px;
+    margin-left: 21px;
+}
+.Extra-menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
